@@ -11,7 +11,7 @@ class Page1 extends StatefulWidget {
 }
 
 class _Page1State extends State<Page1> {
-  static const key = 'AIzaSyCZDt7_XC3WkOv0JU5ZGvWZuGCZ2xCw58Y';
+  static const key = '';
   final model = GenerativeModel(model: 'gemini-pro', apiKey: key);
   TextEditingController contro = TextEditingController();
   List<Messages> messageList = [];
